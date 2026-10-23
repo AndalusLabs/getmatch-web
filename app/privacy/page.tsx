@@ -12,13 +12,15 @@ export default function PrivacyPage() {
   return (
     <main className={styles.page}>
       <h1>Privacybeleid MATCH</h1>
-      <p className={styles.updated}>Laatst bijgewerkt: 28 september 2026</p>
+      <p className={styles.updated}>Laatst bijgewerkt: 23 oktober 2026</p>
 
       <h2>1. Wie we zijn</h2>
       <p>
         MATCH is een mobiele applicatie voor amateurvoetbalteams. Met MATCH kun
         je onder meer teams aanmaken, tegenstanders vinden, Challenges sturen,
-        wedstrijden plannen en ranglijsten en wedstrijdgeschiedenis bijhouden.
+        wedstrijden plannen, ranglijsten en wedstrijdgeschiedenis bijhouden, en
+        als captain of teambeheerder chatten met de captain of teambeheerder van
+        een ander team — vóór en na een Challenge.
       </p>
       <p>
         Dit privacybeleid legt uit welke persoonsgegevens wij verwerken, waarom
@@ -39,6 +41,20 @@ export default function PrivacyPage() {
         <li>ELO / ranking;</li>
         <li>Challenges;</li>
         <li>wedstrijdinformatie en wedstrijdresultaten;</li>
+        <li>
+          chatberichten tussen captains of teambeheerders, waaronder de inhoud
+          van het bericht, afzender, team, tijdstip en de bijbehorende Challenge
+          of wedstrijd;
+        </li>
+        <li>
+          meldingen van chatberichten (rapportages), waaronder een kopie van het
+          gemelde bericht, de melder, de gemelde gebruiker, het bericht-id,
+          eventuele toelichting en de status van de melding;
+        </li>
+        <li>
+          blokkades tussen gebruikers, waaronder wie heeft geblokkeerd, wie is
+          geblokkeerd en wanneer;
+        </li>
         <li>voorkeuren in de app, zoals taal, haptiek en geluid;</li>
         <li>
           technische informatie die nodig is voor authenticatie en beveiliging.
@@ -58,6 +74,12 @@ export default function PrivacyPage() {
         <li>Challenges te versturen;</li>
         <li>wedstrijden te plannen;</li>
         <li>ranglijsten / ELO te berekenen;</li>
+        <li>
+          chat tussen captains of teambeheerders mogelijk te maken, vóór en na
+          een Challenge;
+        </li>
+        <li>meldingen van chatberichten te beoordelen;</li>
+        <li>blokkades tussen gebruikers uit te voeren;</li>
         <li>accountondersteuning te bieden;</li>
         <li>misbruik te voorkomen en de dienst te beveiligen.</li>
       </ul>
@@ -66,7 +88,8 @@ export default function PrivacyPage() {
       <p>
         Wij kunnen dienstverleners zoals Supabase gebruiken voor onder meer
         authenticatie, databaseopslag en het beheren van account- en
-        applicatiegegevens. Deze partijen verwerken gegevens namens ons, voor
+        applicatiegegevens. Daaronder kunnen ook chatberichten, chatmeldingen en
+        blokkades vallen. Deze partijen verwerken gegevens namens ons, voor
         zover dat nodig is om de dienst te leveren.
       </p>
 
@@ -91,7 +114,14 @@ export default function PrivacyPage() {
       <p>
         Wij bewaren persoonsgegevens niet langer dan nodig is voor de doelen
         waarvoor zij zijn verzameld, of zolang wij daartoe wettelijk verplicht
-        zijn.
+        zijn. Chatberichten bewaren wij zolang dat nodig is voor de chat en de
+        dienst. Een melding van een chatbericht bevat een kopie van dat bericht
+        en kan blijven bestaan als het oorspronkelijke bericht later verdwijnt.
+        Bij verwijdering van een account verwijderen wij de door die gebruiker
+        verstuurde chatberichten, de bijbehorende blokkades en meldingen waarbij
+        die gebruiker melder of gemelde is, voor zover die gegevens aan het
+        account zijn gekoppeld. Andere berichten in dezelfde chat kunnen blijven
+        staan als die van een andere gebruiker komen.
       </p>
 
       <h2>7. Delen van gegevens</h2>
@@ -104,6 +134,14 @@ export default function PrivacyPage() {
         Informatie over teams en wedstrijden kan zichtbaar zijn voor andere
         MATCH-gebruikers, voor zover dat nodig is voor de werking van de app
         (bijvoorbeeld om tegenstanders te vinden of Challenges te versturen).
+      </p>
+      <p>
+        Chatberichten zijn alleen zichtbaar voor captains of teambeheerders van
+        de twee betrokken teams, en voor ons voor zover dat nodig is om de
+        dienst te leveren of een melding te beoordelen. Een blokkade is alleen
+        zichtbaar voor de gebruiker die heeft geblokkeerd. Een melding van een
+        chatbericht is niet zichtbaar voor andere gebruikers; wij kunnen die
+        melding inzien om misbruik te beoordelen.
       </p>
 
       <h2>8. Jouw rechten</h2>
@@ -126,10 +164,13 @@ export default function PrivacyPage() {
 
       <h2>9. Account verwijderen</h2>
       <p>
-        Je kunt verwijdering van je account en bijbehorende gegevens aanvragen
-        via{" "}
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Waar
-        beschikbaar kunnen wij ook een verwijderoptie in de app aanbieden.
+        Je kunt je account in de app verwijderen. Je kunt verwijdering van je
+        account en bijbehorende gegevens ook aanvragen via{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Bij
+        verwijdering van je account verwijderen wij onder meer de door jou
+        verstuurde chatberichten, jouw blokkades en meldingen waarbij jij
+        melder of gemelde bent, voor zover die gegevens aan je account zijn
+        gekoppeld.
       </p>
 
       <h2>10. Beveiliging</h2>

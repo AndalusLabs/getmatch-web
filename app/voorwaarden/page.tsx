@@ -13,14 +13,16 @@ export default function VoorwaardenPage() {
   return (
     <main className={styles.page}>
       <h1>Algemene voorwaarden MATCH</h1>
-      <p className={styles.updated}>Laatst bijgewerkt: 28 september 2026</p>
+      <p className={styles.updated}>Laatst bijgewerkt: 23 oktober 2026</p>
 
       <h2>1. Over MATCH</h2>
       <p>
         MATCH is een app waarmee amateurvoetbalteams tegenstanders kunnen
         vinden, Challenges kunnen sturen en wedstrijden kunnen organiseren.
-        MATCH faciliteert contact en organisatie tussen teams; MATCH is zelf geen
-        partij bij de voetbalwedstrijd.
+        Captains of teambeheerders kunnen via chat de organisatie van een
+        wedstrijd afstemmen, vóór en na een Challenge. MATCH faciliteert contact
+        en organisatie tussen teams; MATCH is zelf geen partij bij de
+        voetbalwedstrijd.
       </p>
 
       <h2>2. Account</h2>
@@ -44,6 +46,11 @@ export default function VoorwaardenPage() {
         spelen. MATCH is geen partij bij de voetbalwedstrijd zelf en bemiddelt
         niet als scheidsrechter of organisator van het veld.
       </p>
+      <p>
+        Via chat kunnen captains of teambeheerders van de betrokken teams
+        contact hebben om een voetbalwedstrijd af te stemmen, vóór en na een
+        Challenge. Chat is bedoeld voor die wedstrijdcoördinatie.
+      </p>
 
       <h2>5. Gedrag</h2>
       <p>Het is niet toegestaan om MATCH te gebruiken voor:</p>
@@ -51,11 +58,19 @@ export default function VoorwaardenPage() {
         <li>intimidatie of pesten;</li>
         <li>discriminatie;</li>
         <li>bedreigingen;</li>
+        <li>spam;</li>
+        <li>beledigend of grensoverschrijdend chatgedrag;</li>
         <li>fraude;</li>
         <li>zich voordoen als een ander;</li>
         <li>manipulatie van wedstrijdresultaten of ranglijsten;</li>
         <li>het plaatsen of verspreiden van onrechtmatige content.</li>
       </ul>
+      <p>
+        Deze regels gelden ook voor chat. Je kunt een chatbericht melden en een
+        gebruiker blokkeren. MATCH kan meldingen beoordelen en, waar passend,
+        maatregelen nemen. MATCH belooft geen reactietermijn en kan niet
+        garanderen dat elke melding tot een bepaalde uitkomst leidt.
+      </p>
 
       <h2>6. Wedstrijdorganisatie en veiligheid</h2>
       <p>Gebruikers zijn zelf verantwoordelijk voor onder meer:</p>
@@ -92,10 +107,10 @@ export default function VoorwaardenPage() {
 
       <h2>9. Gebruikerscontent</h2>
       <p>
-        Je blijft verantwoordelijk voor de informatie die je via MATCH verstrekt.
-        Je verleent MATCH een beperkt, niet-exclusief recht om die informatie te
-        tonen en te gebruiken, uitsluitend voor zover nodig om de dienst te
-        leveren.
+        Je blijft verantwoordelijk voor de informatie die je via MATCH verstrekt,
+        waaronder chatberichten. Je verleent MATCH een beperkt, niet-exclusief
+        recht om die informatie te tonen en te gebruiken, uitsluitend voor zover
+        nodig om de dienst te leveren.
       </p>
 
       <h2>10. Opschorting en beëindiging</h2>
