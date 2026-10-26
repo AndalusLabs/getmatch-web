@@ -8,3 +8,10 @@ export const SITE_DESCRIPTION =
 
 export const SITE_SLOGAN =
   "Vind tegenstanders. Bouw je team. Speel mee.";
+
+export const APP_STORE_URL = "https://apps.apple.com/app/id6812712826";
+
+export const IOS_BUNDLE_ID = "com.zakumaestro.match";
+
+/** Existing custom-scheme fallback. Shared invitation URLs stay HTTPS. */
+export const MATCH_URL_SCHEME = "match";
